@@ -24,6 +24,7 @@ Route::get('/home',['uses'=>'Homecontroller@index']);
 Route::get('/SignUp',['uses'=>'Logincontroller@SignUpIndex']);
 
 Route::get('/SignUpValidate',['uses'=>'Logincontroller@SignUpValidate']);
+Route::post('/SignUpValidate',['uses'=>'Logincontroller@SignUpValidate']);
 
 Route::get('/logout',['uses'=>'LogOutController@index']);
 
