@@ -16,5 +16,17 @@ class LoginController extends Controller
    }
 
 
+   public function SignUpValidate(Request $req){
+
+     return  $req->validate([
+
+               'fullName'=>'required',
+ 
+
+         ]);
+     
+   }
+
+
 
 }

@@ -51,11 +51,11 @@
 			<td>Country</td>
 			<td><input type="text" name="Country"></td>
 		</tr>
-        
+
 		<tr>
 			<td></td>
 			<td>
-			<input type="submit" name="Register" value="Register">
+			<input type="submit" name="Register" value="Register" a href="/home">
 			</td>
 		</tr>
 	</table>
