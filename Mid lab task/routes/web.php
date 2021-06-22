@@ -21,9 +21,7 @@ Route::get('/login',['uses'=>'Logincontroller@index']);
 
 Route::get('/home',['uses'=>'Homecontroller@index']);
 
-Route::get('/register', function () {
-    echo "This is signup page";
-});
+Route::get('/SignUp',['uses'=>'Logincontroller@SignUpIndex']);
 
 Route::get('/logout',['uses'=>'LogOutController@index']);
 

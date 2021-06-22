@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
+	<title>Sign Up page </title>
 </head>
 <body>
 	<form method="post">
@@ -17,8 +17,7 @@
 		<tr>
 			<td></td>
 			<td>
-			<input type="submit" name="Submit" value="submit">
-			<a href="/SignUp"> Signup </a>
+			<input type="submit" name="Register" value="Register">
 			</td>
 		</tr>
 	</table>
