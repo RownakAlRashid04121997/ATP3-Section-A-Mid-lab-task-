@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    echo "Starting laravel";
+    echo "Client Management System";
 });
 
 Route::get('/login',['uses'=>'Logincontroller@index']);
